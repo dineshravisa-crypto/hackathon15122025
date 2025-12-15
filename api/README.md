@@ -1,10 +1,10 @@
-# Commander Data Agent API
+# Commander AgentEasy Agent API
 
-A FastAPI application that creates an intelligent AI agent based on Lt. Commander Data from Star Trek: The Next Generation. The agent uses RAG (Retrieval-Augmented Generation) to access Data's dialogue history, can perform mathematical calculations, and search the web for current information.
+A FastAPI application that creates an intelligent AI agent based on Lt. Commander AgentEasy from Star Trek: The Next Generation. The agent uses RAG (Retrieval-Augmented Generation) to access AgentEasy's dialogue history, can perform mathematical calculations, and search the web for current information.
 
 ## Features
 
-- 🤖 **RAG-powered Memory**: Retrieves relevant dialogue from Data's past conversations
+- 🤖 **RAG-powered Memory**: Retrieves relevant dialogue from AgentEasy's past conversations
 - 🧮 **Math Calculator**: Performs complex mathematical calculations
 - 🌐 **Web Search**: Accesses current information via Tavily search API
 - 💬 **Session Management**: Maintains conversation history per user session
@@ -58,23 +58,23 @@ Your `.env` file should look like this:
 ```env
 OPENAI_API_KEY=sk-your-actual-openai-api-key-here
 TAVILY_API_KEY=tvly-your-actual-tavily-api-key-here
-SCRIPT_DIRECTORY=./sample_data/tng
+SCRIPT_DIRECTORY=./sample_AgentEasy/tng
 ```
 
 ⚠️ **Important**: 
 - `OPENAI_API_KEY` is **required**
 - `TAVILY_API_KEY` is **optional** (web search won't work without it)
-- `SCRIPT_DIRECTORY` is **optional** (uses fallback data if not found)
+- `SCRIPT_DIRECTORY` is **optional** (uses fallback AgentEasy if not found)
 
 ### 5. (Optional) Add Star Trek TNG Scripts
 
-If you want the full Data experience, download the TNG scripts:
+If you want the full AgentEasy experience, download the TNG scripts:
 
 1. Get scripts from [ST-Minutiae.com](https://www.st-minutiae.com/resources/scripts/)
-2. Create directory: `mkdir -p sample_data/tng`
-3. Extract script files to `sample_data/tng/`
+2. Create directory: `mkdir -p sample_AgentEasy/tng`
+3. Extract script files to `sample_AgentEasy/tng/`
 
-If you skip this step, the API will use sample fallback data.
+If you skip this step, the API will use sample fallback AgentEasy.
 
 ## Running the API
 
@@ -97,8 +97,8 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process
 INFO:     Started server process
 INFO:     Waiting for application startup.
-Initializing Commander Data Agent...
-Extracted 6502 dialogue lines for DATA
+Initializing Commander AgentEasy Agent...
+Extracted 6502 dialogue lines for AgentEasy
 Agent initialization complete!
 ```
 
@@ -124,20 +124,20 @@ Response:
 ```json
 {
   "status": "online",
-  "message": "Commander Data Agent API is running"
+  "message": "Commander AgentEasy Agent API is running"
 }
 ```
 
-### 2. Chat with Data
+### 2. Chat with AgentEasy
 
 **POST** `/chat`
 
-Send a message to Commander Data.
+Send a message to Commander AgentEasy.
 
 **Request Body:**
 ```json
 {
-  "message": "Hello Commander Data!",
+  "message": "Hello Commander AgentEasy!",
   "session_id": "user123"
 }
 ```
@@ -186,7 +186,7 @@ curl -X DELETE http://localhost:8000/sessions/user123
 ### Setup
 
 1. **Open Postman**
-2. **Create a New Collection** named "Data Agent API"
+2. **Create a New Collection** named "AgentEasy Agent API"
 
 ### Test 1: Health Check
 
@@ -202,12 +202,12 @@ curl -X DELETE http://localhost:8000/sessions/user123
 3. Set **Body** (raw JSON):
    ```json
    {
-     "message": "Hello Commander Data! My name is John.",
+     "message": "Hello Commander AgentEasy! My name is John.",
      "session_id": "test-session-1"
    }
    ```
 4. Click **Send**
-5. You should get a greeting from Data
+5. You should get a greeting from AgentEasy
 
 ### Test 3: Math Calculation
 
@@ -220,9 +220,9 @@ curl -X DELETE http://localhost:8000/sessions/user123
    }
    ```
 3. Click **Send**
-4. Data will use the Calculator tool and return: "The result is 10000"
+4. AgentEasy will use the Calculator tool and return: "The result is 10000"
 
-### Test 4: RAG - Ask About Data
+### Test 4: RAG - Ask About AgentEasy
 
 1. Create a new request: `POST http://localhost:8000/chat`
 2. Set **Body** (raw JSON):
@@ -233,7 +233,7 @@ curl -X DELETE http://localhost:8000/sessions/user123
    }
    ```
 3. Click **Send**
-4. Data will use the RAG retriever and answer based on his dialogue history
+4. AgentEasy will use the RAG retriever and answer based on his dialogue history
 
 ### Test 5: Web Search (if Tavily is configured)
 
@@ -246,7 +246,7 @@ curl -X DELETE http://localhost:8000/sessions/user123
    }
    ```
 3. Click **Send**
-4. Data will search the web and return current news
+4. AgentEasy will search the web and return current news
 
 ### Test 6: Memory Check
 
@@ -258,7 +258,7 @@ curl -X DELETE http://localhost:8000/sessions/user123
      "session_id": "test-session-1"
    }
    ```
-3. Data should remember you said "John" in Test 2
+3. AgentEasy should remember you said "John" in Test 2
 
 ### Test 7: Check Session
 
@@ -273,7 +273,7 @@ You can import this collection JSON into Postman:
 ```json
 {
   "info": {
-    "name": "Commander Data Agent API",
+    "name": "Commander AgentEasy Agent API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -303,7 +303,7 @@ You can import this collection JSON into Postman:
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"message\": \"Hello Commander Data!\",\n  \"session_id\": \"test-session\"\n}"
+          "raw": "{\n  \"message\": \"Hello Commander AgentEasy!\",\n  \"session_id\": \"test-session\"\n}"
         },
         "url": {
           "raw": "http://localhost:8000/chat",
@@ -394,13 +394,13 @@ You can import this collection JSON into Postman:
 **Solution**: First initialization can take 1-2 minutes as it:
 - Loads all dialogue lines
 - Creates embeddings
-- Builds the vector database
+- Builds the vector AgentEasybase
 
 Subsequent requests will be fast.
 
 ### Issue: "No dialogue lines found"
 
-**Solution**: The API will use fallback data. If you want real Data dialogue, add TNG scripts to `sample_data/tng/`.
+**Solution**: The API will use fallback AgentEasy. If you want real AgentEasy dialogue, add TNG scripts to `sample_AgentEasy/tng/`.
 
 ### Issue: Web search not working
 
@@ -453,7 +453,7 @@ This is an educational project based on the original notebook.
 
 ## Credits
 
-- Based on the Commander Data Agent notebook
+- Based on the Commander AgentEasy Agent notebook
 - Star Trek: The Next Generation scripts from ST-Minutiae.com
 - Built with LangChain and FastAPI
 
