@@ -1,6 +1,6 @@
-# Commander AgentEasy Agent API
+#  AgentEasy Agent API
 
-A FastAPI application that creates an intelligent AI agent based on Lt. Commander AgentEasy from Star Trek: The Next Generation. The agent uses RAG (Retrieval-Augmented Generation) to access AgentEasy's dialogue history, can perform mathematical calculations, and search the web for current information.
+A FastAPI application that creates an intelligent AI agent based on Lt.  AgentEasy from Star Trek: The Next Generation. The agent uses RAG (Retrieval-Augmented Generation) to access AgentEasy's dialogue history, can perform mathematical calculations, and search the web for current information.
 
 ## Features
 
@@ -97,7 +97,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process
 INFO:     Started server process
 INFO:     Waiting for application startup.
-Initializing Commander AgentEasy Agent...
+Initializing  AgentEasy Agent...
 Extracted 6502 dialogue lines for AgentEasy
 Agent initialization complete!
 ```
@@ -124,7 +124,7 @@ Response:
 ```json
 {
   "status": "online",
-  "message": "Commander AgentEasy Agent API is running"
+  "message": " AgentEasy Agent API is running"
 }
 ```
 
@@ -132,12 +132,12 @@ Response:
 
 **POST** `/chat`
 
-Send a message to Commander AgentEasy.
+Send a message to  AgentEasy.
 
 **Request Body:**
 ```json
 {
-  "message": "Hello Commander AgentEasy!",
+  "message": "Hello  AgentEasy!",
   "session_id": "user123"
 }
 ```
@@ -202,7 +202,7 @@ curl -X DELETE http://localhost:8000/sessions/user123
 3. Set **Body** (raw JSON):
    ```json
    {
-     "message": "Hello Commander AgentEasy! My name is John.",
+     "message": "Hello  AgentEasy! My name is John.",
      "session_id": "test-session-1"
    }
    ```
@@ -273,7 +273,7 @@ You can import this collection JSON into Postman:
 ```json
 {
   "info": {
-    "name": "Commander AgentEasy Agent API",
+    "name": " AgentEasy Agent API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -303,7 +303,7 @@ You can import this collection JSON into Postman:
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"message\": \"Hello Commander AgentEasy!\",\n  \"session_id\": \"test-session\"\n}"
+          "raw": "{\n  \"message\": \"Hello  AgentEasy!\",\n  \"session_id\": \"test-session\"\n}"
         },
         "url": {
           "raw": "http://localhost:8000/chat",
@@ -453,7 +453,7 @@ This is an educational project based on the original notebook.
 
 ## Credits
 
-- Based on the Commander AgentEasy Agent notebook
+- Based on the  AgentEasy Agent notebook
 - Star Trek: The Next Generation scripts from ST-Minutiae.com
 - Built with LangChain and FastAPI
 
