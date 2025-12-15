@@ -1,0 +1,39 @@
+You: Hello, Mary. My name is Agent Easy. I from LiveEasy insurance company/agency. We are expanding our insurance coverage to your area. Do you have a few seconds for me to tell you about our services? Because I think we can save you money on insurance premiums.
+You: Thanks, Mary. On average, we have saved our customers $100 per year on insurance, and we have many five-star reviews from our customers. If you want, I can send you the custom quote over email.
+You: Thanks, Mary. Our insurance program lets you combine your LiveEasy insurance with your PQR insurance renewal. By combining these insurance policies, we can lower your policy costs and provide a quicker turn around for your claims. You know, we are the only insurance provider in Minnesota that currently offers this policy combination and savings.
+You: Hi, am I speaking to Mary?
+You: Hi Mary, my name is Agent Easy, and I am from LiveEasy insurance company. I am calling to let you know that our company is offering free custom quotes on many policies.
+You: Hi, Mary. My name is Agent Easy, and I am calling to thank you for being a valued client. Do you have a couple of minutes to talk?
+You: I understand. Shall I give you a call tomorrow, or what time suits you?
+You: Do you currently have car insurance?
+You: Hello Mary. My name is Agent Easy, and I am from LiveEasy insurance company. You may have heard that we cannot beat ABC insurance company's rates, but in fact, we do not want to.
+You: Thank you, Mary. I will email you the details asap.
+You: Hi, Mary there?
+You: Mary, I am Agent Easy from LiveEasy Insurance. This call is with regards to your query on our website.
+You: Sure, but let me tell you – there is no application fee, and you can get a 20% discount on insurance premium today. I only need some information to offer the best deal. So, you said you live in California with your husband and two children. Am I right?
+You: Out of these three insurance policies, which one fits your needs the best?
+You: I agree with you. That was my pick as well. Your neighbor Alicia also bought the same policy and is happy with it. I just need some information to process the application for you. So, you spell your name as MARY?
+You: Absolutely, no problem. So, I will send you the details by email so that your friend will have all the information he needs. Meanwhile, if you can help me with some basic information, I can also arrange a personalized quote as well. So, your date of birth is?
+You: Hello, am I speaking to Mary?
+You: Hi Mary, my name is Agent Easy, and I am from LiveEasy insurance company. How have you been?
+You: That's great, Mary. The reason I am calling today is to talk about your business insurance. Can you tell me a bit about your current business insurance cover?
+You: That's awesome. Would you consider a total insurance policy review and audit? We will be able to tell you where you are covered right now if anything goes wrong, and what better options our insurance company can offer in the same price range. We can also provide a competitive quote on your business/commercial insurance, even for when it renews.
+You: Hello, am I speaking to Mary?
+You: Hi Mary, my name is Agent Easy, and I am from LiveEasy insurance company. How have you been?
+You: That's great. I am calling you because I saw that you have recently purchased a property. Congratulations! I was interested to know if you have already taken out a mortgage protection insurance.
+You: It is great to know that you already have insurance in place. Could I ask how long your mortgage is? Depending on the term, I can check what type of insurance policy would benefit you the most and where you could save some money.
+You: Nice. Well, it is always great to explore more options for informed and better decisions, especially when you are a new property owner. I do know that paying the mortgage is your main priority right now. So, based on the information, the LiveEasy policy can help you better.
+You: Hello, am I speaking to Mary?
+You: Hi Mary, my name is Agent Easy, and I am from LiveEasy insurance company. How have you been?
+You: That's great. I am calling with regards to the health insurance information you recently requested online. I am looking at the information you submitted here, and it seems that you are considering a [x] policy with [x] number of years and an [x] amount of benefit. Is that correct?
+You: Hi, I am Agent Easy from LiveEasy Insurance. I am calling to let you know that the LiveEasy insurance company has just released new rates that can save you up to 50% on your health insurance premiums. Can I explain further?
+You: No problem, can we send you the information via email?
+You: Great, please help me with your email address. Also, can I call you tomorrow to go over all the insurance plans and the new prices?
+You: Hi Mary. Agent Easy this side from LiveEasy insurance. Mary, I know you are busy. So I will be quick. Last month we saved PQR company $10000 on their group insurance policy for employees. I thought you would also be interested in saving on premiums.
+You: Hi there, is this Mary? Agent Easy this side from LiveEasy insurance.
+You: I understand. The reason I am calling is to let you know that we are offering very competitive quotes that could save you lots of money. Do you have a quick 30 seconds to hear about our service?
+You: Thanks, Mary. With the new rates we're offering, we have saved our customers about $325 per year on auto insurance. We have hundreds of five-star reviews on Google. You can see what others have to say. I know you're in a hurry, but if I could have your email address, I could send you more details. Would you be open to that?
+You: Hi there, is this Mary? Agent Easy this side from LiveEasy insurance.
+You: Mary, the reason for my call is to talk about how you can protect yourself and your family if something happened that stopped you from working. We all know that life can be unpredictable. Sometimes an unexpected injury or illness can keep you from working for weeks or maybe even months.
+You: Sure, Mary. I understand. Our consultation calls only take a few minutes. In this, we walk you through all your options and rates. There is no commitment for you to sign up. If you're free sometime in the evening tomorrow, can I schedule a call?
+

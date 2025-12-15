@@ -1,0 +1,160 @@
+{
+  "info": {
+    "name": "Insurance Prediction API",
+    "description": "Health Insurance Charge Prediction Endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["health"]
+        },
+        "description": "Check API health status"
+      }
+    },
+    {
+      "name": "Get Model Info",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/insurance/model-info",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["insurance", "model-info"]
+        },
+        "description": "Get information about the trained insurance prediction model"
+      }
+    },
+    {
+      "name": "Predict Insurance - Young Non-Smoker",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"age\": 29,\n  \"sex\": \"male\",\n  \"bmi\": 20.0,\n  \"children\": 0,\n  \"smoker\": \"no\",\n  \"region\": \"southeast\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/insurance/predict",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["insurance", "predict"]
+        },
+        "description": "Predict insurance charges for a young male non-smoker"
+      }
+    },
+    {
+      "name": "Predict Insurance - Middle-Aged Smoker",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"age\": 45,\n  \"sex\": \"female\",\n  \"bmi\": 32.5,\n  \"children\": 2,\n  \"smoker\": \"yes\",\n  \"region\": \"northwest\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/insurance/predict",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["insurance", "predict"]
+        },
+        "description": "Predict insurance charges for a middle-aged female smoker"
+      }
+    },
+    {
+      "name": "Predict Insurance - Older Non-Smoker",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"age\": 60,\n  \"sex\": \"male\",\n  \"bmi\": 25.0,\n  \"children\": 3,\n  \"smoker\": \"no\",\n  \"region\": \"southwest\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/insurance/predict",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["insurance", "predict"]
+        },
+        "description": "Predict insurance charges for an older male non-smoker"
+      }
+    },
+    {
+      "name": "Predict Insurance - Young Female Smoker",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"age\": 25,\n  \"sex\": \"female\",\n  \"bmi\": 28.0,\n  \"children\": 1,\n  \"smoker\": \"yes\",\n  \"region\": \"northeast\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/insurance/predict",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["insurance", "predict"]
+        },
+        "description": "Predict insurance charges for a young female smoker"
+      }
+    },
+    {
+      "name": "Chatbot - Chat Message",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"What insurance process information do you have?\",\n  \"session_id\": \"test-session-1\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/chat",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["chat"]
+        },
+        "description": "Send a message to the Agent Easy chatbot"
+      }
+    }
+  ]
+}
+

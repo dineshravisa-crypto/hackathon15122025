@@ -1,0 +1,51 @@
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Environment variables
+python-dotenv==1.0.0
+
+# LangChain and AI
+langchain-openai==1.1.2
+langchain-classic==1.0.0
+langchain-core==1.1.3
+langchain-community==0.4.1
+langchain-experimental==0.4.1
+langchain-text-splitters==1.0.0
+
+# OpenAI
+openai
+
+# Search tool
+tavily-python==0.3.3
+
+# Data processing (Python 3.12 compatible versions)
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# Optional but recommended
+httpx==0.26.0
+
+numexpr
+
+bs4
+pandas
+statsmodels
+sklearn
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+# scikit-learn-intelex
+# scikit-learn-intelex-accelerate
+# scikit-learn-intelex-accelerate-gpu
+# scikit-learn-intelex-accelerate-cpu
+
+
+# pip install numexpr fastapi==0.109.0 uvicorn[standard]==0.27.0 python-multipart==0.0.6 python-dotenv==1.0.0 langchain-openai==1.1.2 langchain-classic==1.0.0 langchain-core==1.1.3 langchain-community==0.4.1 langchain-experimental==0.4.1 langchain-text-splitters==1.0.0 openai tavily-python==0.3.3 httpx==0.26.0
+# pip install pydantic>=2.9.0 pydantic-settings>=2.5.0
+# pip install numexpr bs4
+
+# pip install pandas statsmodels numpy matplotlib seaborn scipy scikit-learn
